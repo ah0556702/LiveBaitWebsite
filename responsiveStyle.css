@@ -1,0 +1,76 @@
+/*
+ Assignment: Live Bait Website
+ Responsive CSS for Live Bait Website
+ Author: Audrey Harmon
+ Date:   July 20, 2022
+
+ Filename: responsiveStyle.css
+*/
+
+@media screen and (max-width: 568px) {
+
+  .menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .menu li {
+    display: flex;
+    text-align: center;
+  }
+
+  .main_content {
+    background-repeat: no-repeat;
+    font-size: 0.6em;
+    display: inline-flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .contact_info {
+    margin: auto;
+  }
+
+  .vid1 {
+    margin: auto;
+    border-radius: 0px;
+  }
+
+  .vid2, .vid3 {
+    display: none;
+  }
+
+  .pricing_tables {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    border: 2px solid #42687D;
+    background-image: none;
+    background-color: #919491;
+    height: auto;
+    text-shadow: 2px 2px 5px #B55F56;
+  }
+
+  .live_bait_data, .cold_bait_data {
+    margin-bottom: 30px;
+    border: none;
+    box-shadow: none;
+  }
+
+  .cold_bait_data {
+    border-top: 2px solid #42687D;
+  }
+
+  .respooling {
+    border: 2px solid #919491;
+    border-radius: 0px;
+    color: #42687D;
+    box-shadow: 0px 5px 10px #42687D;
+  }
+
+}
